@@ -793,7 +793,7 @@ section.lazy-placeholder:after {
   }
 }
 .cid-rQGLCbGRbz {
-  padding-top: 60px;
+  padding-top: 120px;
   padding-bottom: 15px;
   background-color: #ffffff;
 }
@@ -840,4 +840,46 @@ section.lazy-placeholder:after {
 .cid-rQJXkiq8eG .mbr-text,
 .cid-rQJXkiq8eG blockquote {
   color: #767676;
+}
+.cid-rQQKy1L5Fx {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rQQKy1L5Fx [class^="socicon-"]:before,
+.cid-rQQKy1L5Fx [class*=" socicon-"]:before {
+  line-height: 44px;
+}
+.cid-rQQKy1L5Fx .btn-social {
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  position: relative;
+  color: #232323;
+  cursor: pointer;
+  border-color: #073b4c;
+}
+.cid-rQQKy1L5Fx .btn-social i {
+  top: 0;
+  line-height: 44px;
+  width: 44px;
+}
+.cid-rQQKy1L5Fx .btn-social:hover {
+  color: #fff;
+  background: #073b4c;
+}
+.cid-rQQKy1L5Fx .btn-social:hover i.socicon {
+  color: #ffffff !important;
+}
+.cid-rQQKy1L5Fx .btn-social + .btn {
+  margin-left: .1rem;
+}
+@media (max-width: 767px) {
+  .cid-rQQKy1L5Fx .btn {
+    font-size: 20px !important;
+  }
 }
