@@ -354,7 +354,7 @@
         },
         {
           "_params": {
-            "HTMLCode": "Ваш HTML. Пожалуйста, используйте значок шестеренки для редактирования HTML.",
+            "HTMLCode": "<div id=\"blanket\" style=\"display:none;\"></div>\n<div id=\"popUpDiv\" style=\"display:none;\">\n<a href=\"#\" onclick=\"popup('popUpDiv')\">Закрыть PopUp</a>\n</div>\n<a href=\"#\" onclick=\"popup('popUpDiv')\">Открыть PopUp</a>",
             "hideOnPublish": false,
             "paddingTop": 2,
             "paddingBottom": 2,
@@ -367,7 +367,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "HTMLCode": "Ваш HTML. Пожалуйста, используйте значок шестеренки для редактирования HTML.",
+          "HTMLCode": "<div id=\"blanket\" style=\"display:none;\"></div>\n<div id=\"popUpDiv\" style=\"display:none;\">\n<a href=\"#\" onclick=\"popup('popUpDiv')\">Закрыть PopUp</a>\n</div>\n<a href=\"#\" onclick=\"popup('popUpDiv')\">Открыть PopUp</a>",
           "alias": "witsec-custom-html",
           "_tags": [
             "Extension"
