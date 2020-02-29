@@ -355,7 +355,7 @@
         {
           "_params": {
             "HTMLCode": "<div id=\"blanket\" style=\"display:none;\"></div>\n<div id=\"popUpDiv\" style=\"display:none;\">\n<a href=\"http://netinder.ru/page1.html\" onclick=\"popup('popUpDiv')\">Закрыть PopUp</a>\n</div>\n<a href=\"http://netinder.ru/page1.html\" onclick=\"popup('popUpDiv')\">Открыть PopUp</a>",
-            "hideOnPublish": false,
+            "hideOnPublish": true,
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
