@@ -47,7 +47,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 27,
+    "uniqCompNum": 30,
     "versionPublish": "4.11.6",
     "favicon": "@PROJECT_PATH@/assets/images/128x119.png",
     "noImageResize": null,
@@ -230,6 +230,29 @@
           "_params": {}
         },
         {
+          "_params": {
+            "HTMLCode": "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/767150317&color=%23f7f3f1&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>",
+            "hideOnPublish": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "HTMLCode": "<iframe width=\"100%\" height=\"166\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/767150317&color=%23f7f3f1&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true\"></iframe>",
+          "alias": "witsec-custom-html",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-custom-html-block",
+          "_anchor": "witsec-custom-html-block-q"
+        },
+        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -268,7 +291,7 @@
             }
           },
           "_name": "testimonials2",
-          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Размер медиа\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"195\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background3.jpg\">\n          <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected>\n          <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/87676315-618173875643368-8486928667515072475-n-1-1080x1350.jpg\" alt title>\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".testimonial-text\"><br>Может быть мы детали, \n<br>Может быть мы летаем\n<br>Пока нас нет.\n<br>Сумма целого больше чем,\n<br>А пока многоточие \n<br>В этой тишине...\n<br>\n<br>Нас создали деталями, \n<br>Чтобы что-то собрали мы\n<br>Из себя.\n<br>Впадины, выступы, \n<br>Выточены, вырезаны \n<br>Для тебя. \n<br>\n<br>А вдруг именно в этот раз \n<br>Странный механик, что создал нас\n<br>Щёлкнет нашими слотами.<br>А вдруг точно сойдётся и в стык, и в паз,\n<br>Вдруг именно в этот раз всё заработает!<br>\n<br>Может быть мы не знали,\n<br>Может быть мы детали \n<br>Или нет.\n<br>Но я без тебя пустой, ты без меня зеро,\n<br>Лети ко мне.\n<br>\n<br>Те, кто летал - упали, \n<br>Потому что детали, не механизм.&nbsp;<br>Может это не верный пазл, \n<br>Или быть может в этот раз\n<br>Может быть...<br></p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-author-name\"><span style=\"font-weight: normal;\"><a href=\"https://www.stihi.ru/2015/05/08/11059\" target=\"_blank\" class=\"text-warning\"></a><a href=\"https://music.yandex.ru/album/4888415/track/63140981\" target=\"_blank\" class=\"text-warning\">© Сердце - Детали</a></span></p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\">...</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Размер медиа\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"195\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background3.jpg\">\n          <input type=\"color\" title=\"Цвет фона\" value=\"#ffffff\" selected>\n          <input type=\"video\" title=\"Фоновое видео\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/87676315-618173875643368-8486928667515072475-n-1-1080x1350.jpg\" alt title>\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".testimonial-text\"><br>Может быть мы детали, \n<br>Может быть мы летаем\n<br>Пока нас нет.\n<br>Сумма целого больше чем,\n<br>А пока многоточие \n<br>В этой тишине...\n<br>\n<br>Нас создали деталями, \n<br>Чтобы что-то собрали мы\n<br>Из себя.\n<br>Впадины, выступы, \n<br>Выточены, вырезаны \n<br>Для тебя. \n<br>\n<br>А вдруг именно в этот раз \n<br>Странный механик, что создал нас\n<br>Щёлкнет нашими слотами.<br>А вдруг точно сойдётся и в стык, и в паз,\n<br>Вдруг именно в этот раз всё заработает!<br>\n<br>Может быть мы не знали,\n<br>Может быть мы детали \n<br>Или нет.\n<br>Но я без тебя пустой, ты без меня зеро,\n<br>Лети ко мне.\n<br>\n<br>Те, кто летал - упали, \n<br>Потому что детали, не механизм.&nbsp;<br>Может это не верный пазл, \n<br>Или быть может в этот раз\n<br>Может быть...<br></p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-author-name\"><span style=\"font-weight: normal;\">© Сердце - Детали *</span></p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\">...</p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rQGM8Wz0IY",
           "_anchor": "testimonials2-b",
           "_protectedParams": [],
@@ -294,29 +317,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "HTMLCode": "<iframe frameborder=\"0\" style=\"border:none;width:100%;height:70px;\" width=\"90%\" height=\"70\" src=\"https://music.yandex.ru/iframe/#track/63140981/4888415\">Слушайте <a href='https://music.yandex.ru/album/4888415/track/63140981'>Детали</a> — <a href='https://music.yandex.ru/artist/1294727'>Сердце</a> на Яндекс.Музыке</iframe>",
-            "hideOnPublish": false,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "HTMLCode": "<iframe frameborder=\"0\" style=\"border:none;width:100%;height:70px;\" width=\"90%\" height=\"70\" src=\"https://music.yandex.ru/iframe/#track/63140981/4888415\">Слушайте <a href='https://music.yandex.ru/album/4888415/track/63140981'>Детали</a> — <a href='https://music.yandex.ru/artist/1294727'>Сердце</a> на Яндекс.Музыке</iframe>",
-          "alias": "witsec-custom-html",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-custom-html-block",
-          "_anchor": "witsec-custom-html-block-q"
         },
         {
           "alias": false,
